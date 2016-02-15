@@ -1,0 +1,15 @@
+{
+  "name": "code-in-the-dark-quito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Paredes",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "normalize.css": "^3.0.3"
+  }
+}
