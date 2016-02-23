@@ -60,6 +60,16 @@ footer {
     background: #61BF89;
     padding: 2em;
 }
+.row:after, .row:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.row .half-row {
+    position: relative;
+    float: left;
+    width: 50%;
+}
 .section-padding {
     padding: 2em 0;
 }
