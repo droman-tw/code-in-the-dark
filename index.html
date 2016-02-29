@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="es-EC">
-<head>
-<!-- TODO: Social Links  -->
-    <meta charset="UTF-8">
-    <title>Code in the Dark - Quito</title>
-    <meta name="description" content="Code in the Dark, creías que conocías Frontend. Code in the Dark es una competición de programación concebida por Tictail y organizada por Thoughtworks Ecuador">
-    <meta name="author" content="Thoughtworks">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/site.css">
-</head>
-<body>
-    <section>
-        <img id="logo" src="content/cid-logo.png" alt="Code in the Dark - Logo">
-    </section>
-    <section class="section">
-        <div class="video-player" data-url="http://player.vimeo.com/video/156356421?title=0&byline=0&portrait=0&autoplay=1">
-            <img src="content/video-backdrop.png" alt="Code in the Dark Quito">
-            <div class="video-player-backdrop"></div>
-            <div class="play-button"></div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Code in the Dark - Quito</title>
+        <meta name="description" content="Code in the Dark, creías que conocías Frontend. Code in the Dark es una competición de programación concebida por Tictail y organizada por Thoughtworks Ecuador">
+        <meta name="author" content="Thoughtworks">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "http://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <div class="social-links">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codeinthedarkec.com" data-text="Eres un experto en Front End? Prepárate, pondremos a prueba tus conocimientos -" data-via="Thoughtworks_es" data-size="large" data-hashtags="codeinthedark">Tweet</a>
+            <div class="fb-share-button" data-href="http://codeinthedarkec.com" data-layout="button_count"></div>
         </div>
-    </section>
-    <section class="section">
-        <div class="row">
-            <div class="half-row">
-                <h2>Las Reglas</h2>
+        <section>
+            <img id="logo" src="content/cid-logo.png" alt="Code in the Dark - Logo">
+        </section>
+        <section class="section">
+            <div class="video-player" data-url="http://player.vimeo.com/video/156356421?title=0&byline=0&portrait=0&autoplay=1">
+                <img src="content/video-backdrop.png" alt="Code in the Dark Quito">
+                <div class="video-player-backdrop"></div>
+                <div class="play-button"></div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="row">
+                <div class="half-row">
+                    <h2>Las Reglas</h2>
                     <ul>
                         <li>20 minutos</li>
                         <li>HTML/CSS</li>
@@ -33,57 +45,61 @@
                         <li>Sin previsualizaciones</li>
                         <li>Un/a campeón/a</li>
                     </ul>
+                </div>
+                <div class="half-row">
+                    <h2>¿Cómo funciona el concurso?</h2>
+                    <p class="lateral-margin">
+                        Un total de 24 desarrolladores competirán en 2 categorías ( Junior &amp; Senior ), donde primero tendrán que superar una ronda clasificatoria para luego decidir al campeón en la gran final, siendo nuestros <i>Thoughtworkers</i> los encargados de seleccionar al ganador.
+                        <br /><br />
+                        Tu misión es emular el diseño que nosotros te daremos como una imagen. No podrás previsualizar tus resultados, ni utilizar plugins o librerías, ni salirte del editor durante toda la duración de la competición.
+                        <br /><br />
+                        Los participantes de cada categoría serán invitados al escenario, con laptops configuradas previamente para tí. Cada laptop tendrá un monitor conectado de cara a la audiencia - y así que todos puedan ver tu progreso -
+                        <br /><br />
+                        Cuando se acaben los 20 minutos, guarda tu resultado y deja que nosotros votemos por los/las ganadores/as. Simple, ¿verdad?.
+                    </p>
+                </div>
             </div>
-            <div class="half-row">
-                <h2>¿Cómo funciona el concurso?</h2>
-                <p>
-                    Un total de 24 desarrolladores competirán en 2 categorías ( Junior &amp; Senior ), donde primero tendrán que superar una ronda clasificatoria para luego decidir al campeón en la gran final, siendo nuestros <i>Thoughtworkers</i> los encargados de seleccionar al ganador.
-                    <br /><br />
-                    Tu misión es emular el diseño que nosotros te daremos como una imagen. No podrás previsualizar tus resultados, ni utilizar plugins o librerías, ni salirte del editor durante toda la duración de la competición.
-                    <br /><br />
-                    Los participantes de cada categoría serán invitados al escenario, con laptops configuradas previamente para tí. Cada laptop tendrá un monitor conectado de cara a la audiencia - y así que todos puedan ver tu progreso -
-                    <br /><br />
-                    Cuando se acaben los 20 minutos, guarda tu resultado y deja que nosotros votemos por los/las ganadores/as. Simple, ¿verdad?.
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="section">
-        <h2>¿Cuándo?</h2>
-        <h3>18 . 03 . 2016</h3>
-    </section>
-    <section class="section">
-        <h2>¿Dónde?</h2>
-        <a href="https://www.thoughtworks.com/es/" target="_blank">
-            <img class="small-logo" src="content/tw-logo.png" alt="Thoughtworks">
-        </a>
-        <address>Edificio Brescia. Piso 9,<br />
-        Avenida República del Salvador<br />
-        N34-107 y Suiza, Quito 170135
-        </address>
-    </section>
-    <section class="section">
-        <a href="#" class="btn-default btn-lg">Inscríbete Ya!</a>
-    </section>
-    <section class="section">
-        <p>
-            ¿Preguntas?, escríbenos a <a href="mailto:codeinthedark@thoughtworks.com">codeinthedark@thoughtworks.com</a>
-        </p>
-        <p>
-            Para saber más acerca de otros eventos oficiales, visita <a href="http://codeinthedark.com/" target="_blank">Code in the Dark</a>
-        </p>
-    </section>
-    <footer>
-        <h2>Este evento es organizado por</h2>
-        <a href="https://www.thoughtworks.com/es/" target="_blank">
-            <img class="small-logo" src="content/tw-logo-white.png" alt="Thoughtworks">
-        </a><br />
-        <h2>Con el apoyo de</h2>
-        <a href="https://tictail.com/" target="_blank">
-            <img class="small-logo" src="content/tictail-logo.png" alt="Tictail">
-        </a>
-    </footer>
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/app.js"></script>
-</body>
+        </section>
+        <section class="section">
+            <h2>¿Cuándo?</h2>
+            <h3>18 . 03 . 2016</h3>
+        </section>
+        <section class="section">
+            <h2>¿Dónde?</h2>
+            <a href="https://www.thoughtworks.com/es/" target="_blank">
+                <img class="small-logo" src="content/tw-logo.png" alt="Thoughtworks">
+            </a>
+            <address>Edificio Brescia. Piso 9,<br />
+                Avenida República del Salvador<br />
+                N34-107 y Suiza, Quito 170135
+            </address>
+        </section>
+        <section class="section">
+            <a href="https://www.eventbrite.com.ar/e/code-in-the-dark-tickets-22241530015" class="btn-default btn-lg" target="_blank">Inscríbete Ya!</a>
+        </section>
+        <section class="section">
+            <p>
+                ¿Preguntas?, escríbenos a <a href="mailto:codeinthedark@thoughtworks.com">codeinthedark@thoughtworks.com</a>
+            </p>
+            <p>
+                Para saber más acerca de otros eventos oficiales, visita <a href="http://codeinthedark.com/" target="_blank">Code in the Dark</a>
+            </p>
+        </section>
+        <footer>
+            <h2>Este evento es organizado por</h2>
+            <a href="https://www.thoughtworks.com/es/" target="_blank">
+                <img class="small-logo" src="content/tw-logo-white.png" alt="Thoughtworks">
+            </a><br />
+            <h2>Con el apoyo de</h2>
+            <a href="https://tictail.com/" target="_blank">
+                <img class="small-logo" src="content/tictail-logo.png" alt="Tictail">
+            </a>
+        </footer>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}
+        }(document, 'script', 'twitter-wjs');
+        </script>
+    </body>
 </html>
