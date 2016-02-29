@@ -69,6 +69,7 @@ footer {
     position: relative;
     float: left;
     width: 50%;
+    padding-bottom: 10px;
 }
 #logo {
     margin: 9% 0 10%;
@@ -166,5 +167,8 @@ footer {
 @media screen and (max-width: 720px) {
     h3, li {
         font-size: 2em;
+    }
+    .half-row {
+        width: 100% !important;
     }
 }
