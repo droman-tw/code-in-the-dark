@@ -127,6 +127,7 @@ footer {
 }
 .social-links > * {
     float: right;
+    padding-left: 10px;
 }
 .btn-default {
     display: inline-block;
