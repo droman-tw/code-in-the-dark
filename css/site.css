@@ -225,6 +225,7 @@ footer {
         font-size: 2em;
     }
     .half-row {
-        width: 100% !important;
+        width: 75% !important;
+        margin-left: 12.5% !important;
     }
 }
