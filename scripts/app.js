@@ -2,7 +2,7 @@
 
     $(function() {
         var playButton = $('.play-button');
-        var videoIframeHtml = '<iframe src="http://player.vimeo.com/video/156356421?title=0&byline=0&portrait=0&autoplay=1" width="700" height="467"></iframe>';
+        var videoIframeHtml = '<iframe width="854" height="480" src="https://www.youtube.com/embed/BzeFY4PGUNc?autoplay=1" frameborder="0" allowfullscreen></iframe>';
 
         playButton.on({
 
