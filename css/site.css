@@ -229,3 +229,11 @@ footer {
         margin-left: 12.5% !important;
     }
 }
+
+#inscription-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    margin: auto;
+}
